@@ -4,11 +4,15 @@ Create Vagrantfile and ansible playbook for setting up backend and frontend appl
 
 So I should be able to run `vagrant up`
 And vagrant should
-1) create virtual server
-2) provision it (using ansible playbook) with everything needed for
+
+* create virtual server
+* provision it (using ansible playbook) with everything needed for
 `frontend` and `backend`
-3) frontend should be available on port 80, path `/app`
-4) backend should be available on port 80, path `/api`
+* download (f.e. git clone) and deploy `frontend` and `backend` to vagrant box
+* frontend should be available on port 80, path `/app`
+* backend should be available on port 80, path `/api`
+
+you can provide your ansible playbook and Vagrantfile in any convinient way
 
 # Frontend
 
